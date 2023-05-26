@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #02041a;
+	user-select: none;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.sign-up-form {
+	position: relative;
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: rgba(92, 92, 136, 0.25) 0px 50px 100px -20px,
+		rgba(46, 45, 45, 0.3) 0px 30px 60px -30px, rgba(25, 63, 101, 0.35) 0px -2px 6px 0px inset;
+	width: 280px;
+	height: 65vh;
+	display: grid;
+	place-items: center;
+	padding-top: 70px;
+	padding-bottom: 30px;
+}
+
+.next {
+	display: flex;
+	align-items: center;
+}
+
+.logInA {
+	color: #4873e9;
+	font-size: 15px;
+	margin-left: 150px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+	width: 80%;
+	height: 30px;
+	outline: none;
+	border: 0;
+	border-bottom: 2px solid gray;
+}
+
+input:focus {
+	background-color: rgb(216, 220, 223);
+}
+
+h2 {
+	z-index: 1;
+	bottom: 455px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	border: 1px solid #0b3ec9;
+	background: #0b3ec9;
+	color: white;
+	border-radius: 8px;
+	box-shadow: rgb(140, 154, 169) 0px 20px 30px -10px;
+	width: 310px;
+	height: 7vh;
+}
+
+.signUp {
+	width: 150px;
+	height: 35px;
+	border-radius: 8px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	box-shadow: rgb(140, 154, 169) 0px 20px 30px -10px;
+	font-size: 16px;
+	background: #02041a;
+	transition: transform 0.8s ease;
+}
+
+.signUp:active {
+	transform: scale(0.8);
+	width: 155px;
+}
